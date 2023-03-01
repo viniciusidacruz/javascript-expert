@@ -1,0 +1,9 @@
+pages
+    titles
+        src
+            index.js: Responsável por chamar todas as camadas
+            controllers: É a intermediaria entre services e views
+            factories: Responsável por importar as depêndencias e criar o objeto final devolvendo em uma função initialize
+            services: Toda lógica de negócio e chamada externa (API, arquivos, banco de dados)
+            views: Toda a interação com o DOM (HTML)
+            workers: Responsável por toda lógica pesada que envolve a CPU
